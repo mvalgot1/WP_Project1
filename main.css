@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  padding: 10px 16px;
+  background: teal;
+  color: #f1f1f1;
+}
+.header-right {
+  float: right;
+  color: black;
+}
+.header a.active {
+  color: black;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.header-right {
+  float: right;
+}
+.header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.title{
+	text-align:center;
+}
+.topImg
+    {
+        position: absolute;
+        top: 50px;
+        left: 200px; 
+           
+    }
+    .pic1{
+        width: 125px;
+    height: 150px;
+    padding-left: 100px;
+    padding-top: 150px;
+
+    }
+	.pic1:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+         transform: scale(1.5); 
+    }
+	.pic2{
+        width: 125px;
+    height: 150px;
+    padding-left: 250px;
+    padding-top: 150px;
+    }
+	
+    
+	.pic3:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+         transform: scale(1.5); 
+         transition-delay: 0.2s;
+    }
+	.pic3{
+        width: 125px;
+    height: 150px;
+    padding-left: 300px;
+    padding-top: 150px;
+    }
+	
+    
+	.pic2:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+         transform: scale(1.5); 
+         transition-delay: 0.2s;
+    }
+	
+	.bottomImg
+    {
+        position: absolute;
+        top: 350px;
+        left: 210px; 
+           
+    }
+    .pic4{
+        width: 125px;
+    height: 150px;
+    padding-left: 50px;
+    padding-top: 200px;
+    }
+	.pic1:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+         transform: scale(1.5); 
+         transition-delay: 0.2s;
+    }
+	
+   
+    .partition1{
+        background-image: url("bg4.jpg");
+        width: auto;
+        height: 300px;
+     
+    }
+	.partition2{
+        background-image: url("b.jpg");
+		background-color:wheat;
+        width: auto;
+        height: 300px;
+     
+    }
+.partition3{
+       
+		background-color:teal;
+        display: flex;
+	}
+	.animation{
+		   
+    width: 501px;
+	height:auto;
+    
+}
+.animation1{
+		   
+    width: 501px;
+	height:280px;
+    
+}
+	
+	.animation2{
+		   
+    width: 501px;
+	height:280px;
+    
+}
+
+.animation3 {
+    width: 501px;
+    height:280px;
+}
+	
+.partition3 .column1_left {
+	width:33.3%;
+	float: left;
+    padding: 10px;
+    
+}	
+
+.partition3.column_middle{
+    width: 33.4%;
+    
+    padding: 10px 10px;
+    
+}
+
+.partition3 .column_right{
+    width: 33.3%;
+    
+}
+
+.partition3 .img{
+    width: 33.3%;
+    display:auto;
+
+}
+
+.column_middle img {
+ height : 280px;
+ padding: 10px, 10px;
+
+}
